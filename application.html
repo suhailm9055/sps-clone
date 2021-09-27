@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+</head>
+<body style="background-color: rgb(245, 245, 240);" class="m-0 p-0">
+    <header">
+        <div class="row col-12" style="background-color: white;">
+            <div class="col-12 mt-4 text-center">
+                <h1 class="head-logo">
+                    <a href="index.html" class="text-black h2">
+                        SPS<span class="text-info">.</span>
+                    </a>
+                </h1>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="container" style="border-radius: 10px; background-color: white;">
+        <div class="rg mt-2">
+            
+                <div class="mb-5" style="color: #00d2b5;">
+                    <h2><strong>REGISTRATION</strong></h2>
+                </div>
+            <div>
+            <form id="register">
+                <div class="mb-5 col-12 ">
+                    <input name="fname" type="text" placeholder="Full Name" class="rg-box">
+                </div>
+                <div class="row">
+                <div class="mb-5 col-12 col-lg-6">
+                    <input name="place" type="text" placeholder="Place" class="rg-box">
+                </div>
+                <div class="rg-box mb-5 col-12 col-lg-6">
+                    <select name="gender" style="outline: none; border:none; color: gray;">
+                        <option value="">Gender</option>
+                        <option value="male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+                </div>
+                <div class="mb-5 col-12 ">
+                    <input name="mail" type="email" placeholder="Email" class="rg-box">
+                </div>
+                <div class="row">
+                    <div class="mb-5 col-12 col-lg-6">
+                        <input name="tel" type="tel" placeholder="Contact No" class="rg-box">
+                    </div>
+                    <div class="rg-box mb-5 col-12 col-lg-6">
+                        <select name="employment" style="outline: none; border:none; color: gray;">
+                            <option value="">Employment Status</option>
+                            <option value="Employed">Employed</option>
+                            <option value="Fresher">Fresher</option>
+                            <option value="Student">Student</option>
+                        </select>
+                    </div>
+                    </div>
+                    <div class="rg-box mb-5 col-12">
+                        <select name="employmentStatus" style="outline: none; border:none; color: gray;">
+                            <option value="">Educational Qualification</option>
+                            <option value="B.Tech">B.Tech</option>
+                            <option value="M.Tech">M.Tech</option>
+                            <option value="BCA/MCA">BCA/MCA</option>
+                            <option value="Bsc/Msc">Bsc/Msc</option>
+                            <option value="Diploma">Diploma</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+                    <div class="mb-5 col-12 ">
+                        <input name="college" type="text" placeholder="Name of College/Organization" class="rg-box">
+                    </div>
+                    <div class="mb-5 col-12 ">
+                        <input name="graduation" type="number" placeholder="Year of Graduation" class="rg-box">
+                    </div>
+                    <div class="mb-5 col-12 ">
+                        <textarea name="tellUs" type="text" placeholder="Tell us more about you" class="rg-box"></textarea>
+                    </div>
+                    <div class="mb-5 col-12 ">
+                        <textarea name="whyDo" type="text" placeholder="Why do you want to join SPS?" class="rg-box"></textarea>
+                    </div>
+                    <div class="mb-5 col-12 ">
+                        <textarea name="whatMotivates" type="text" placeholder="What motivates you to word hard every day?" class="rg-box"></textarea>
+                    </div>
+                    <div class="rg-box mb-5 col-12">
+                        <select name="whereDid" style="outline: none; border:none; color: gray;">
+                            <option value="">Frome where did you learn about SPS?</option>
+                            <option value="CrossRoads Youtube Channel">CrossRoads Youtube Channel</option>
+                            <option value="Youtube">Youtube</option>
+                            <option value="Friends">Friends</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Whatsapp Group">Whatsapp Group</option>
+                            
+                        </select>
+                    </div>
+                    <div class="row mb-5 col-12 rg-box">
+                        <input name="cBox" type="checkbox" class="mt-2 col-1">
+                        <p class="pl-3">I agree that i have read and understood all the <span style="color: #22d1b5;" >FAQs</p>
+                    </div>
+                    
+                    <button class="btn rg-btn mt-5">REGISTER</button>
+            </form>
+        </div>
+            
+      </div>
+      
+    </div>
+    <footer class="rg-footer mt-1">
+        <div class="footer-div">
+            <p>
+                Copyright ©Packapeer Academy Pvt Ltd 2021</p>
+        </div>
+      </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+<script src="script.js"></script>
+</html>
+
+
+
