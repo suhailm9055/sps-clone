@@ -147,7 +147,7 @@ padding-top:10px;
     display: flex;
     
 }
-.col-lg-5{
+.col-lg-5 .col-11 .col-md-5{
     padding: 30px 30px 20px 20px;
 }
 .briefp{
@@ -157,6 +157,7 @@ padding-top:10px;
 }
 .rowborder{
     padding-top: 60px;
+    padding: 10px;
     border-top:1px solid #a09b9d;
     border-bottom: 1px solid #a09b9d;
 }
@@ -216,6 +217,7 @@ body {
   height: 50%;
   left: 50%;
   top: 50%;
+ 
 }
 .how-it-works.row .col-2.full::after {
   height: 100%;
@@ -266,7 +268,7 @@ body {
 .Domains{
     background-color: #f6f6f6;
     padding: 10px;
-    padding-inline: 80px;
+    padding-inline: 10px;
 }
 .Domains .row{
     display: flex;
@@ -296,10 +298,10 @@ body {
     color: white;
 }
 .joinsps{
-    padding: 30px;
+    padding: 1px;
 }
 .joinhead{
-    margin: 10px;
+    
     margin-top: 30px;
     border-bottom: 1px solid rgb(190, 189, 189);
 }
@@ -317,7 +319,7 @@ width: 100%;
 }
 
 .joinprocess .lastnoheight .col-2.full::after {
-  height: 50%;
+  height: 50px;
   left: calc(50% - 3px);
   top: 0;
 }
@@ -325,7 +327,7 @@ width: 100%;
 .joinprocess .firstnoheight .col-2.full::after {
   height: 50%;
   left: calc(50% - 3px);
-  top: 50px;
+  bottom: 0px;
 }
 .chatbox{
   margin: 20px;
