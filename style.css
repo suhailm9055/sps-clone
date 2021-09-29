@@ -72,21 +72,21 @@ padding-top:10px;
 }
 .cardsblock{
     display: flex;
-    padding: 10px;
     padding-bottom: 50px;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;   
 }
 .cards1{
-    width:30%;
+    width:100%;
     height: auto;
     background-color: white;
     padding: 20px;
-    margin-inline: 10px;
+   
     border-radius: 5px;
-    position: relative;
+   
     top:0px;
     margin:10px;
+    margin-inline: 5px;
    
 }
 .cards1:hover{
