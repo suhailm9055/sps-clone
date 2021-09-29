@@ -496,8 +496,10 @@ color: black;
   border: 2px solid seagreen;
 }
 
-.details .h4size p a{
+.address-section .h4size,
+.address-section .h4size a{
   color: #22d1b5;
+  font-weight: 400;
 }
 .rg{
   padding: 80px 90px;
@@ -537,4 +539,35 @@ color: black;
 }
 img:hover{
   cursor: pointer;
+}
+.address-section{
+  padding-left: 2rem;
+  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  justify-content: center;
+  color: #000;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  width: 3.5rem;
+  border: none;
+  outline: none;
+  background-color: #22d1b5;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }

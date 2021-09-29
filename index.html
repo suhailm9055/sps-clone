@@ -12,6 +12,7 @@
     <title>Sps</title>
   </head>
   <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"> &and; </button>
     <div class="flexrow">
     <div class="screen1">
     <div class="container">
@@ -28,7 +29,7 @@
       <img class="whatsps" src="whats_sps.png">
     </div>
     <iframe id="iframewhatsps" width="635" height="357" src="https://www.youtube.com/embed/I9QGnNvrmoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div class="col-lg-5 textright">
+    <div class="col-lg-5 col-md-10 textright">
       <div class="row">
       <div class="headtext">
         <h1 class="h1size">No Tuition Fee Upfront,<br>Pay Only When You Earn.</h1>
@@ -469,8 +470,8 @@
       </div>
 
       <div
-        class="col-lg-6 col-md-12 address-section"
-        style="padding-left: 5em"
+        class="col-lg-5 col-md-12 address-section"
+        style="padding-left: 2em"
       >
         <div class="container d-flex justify-content-start mb-4">
           <div>
@@ -528,5 +529,26 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
   <script src="index.js"></script>
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
   </body>
 </html>
